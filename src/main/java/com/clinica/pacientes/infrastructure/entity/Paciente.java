@@ -23,15 +23,9 @@ public class Paciente {
     private LocalDate fechaNacimiento;
     private Boolean activo;
 
-    // si quisieras relaciones con citas/consultas:
-    // @OneToMany(mappedBy="paciente", cascade=CascadeType.ALL)
-    // private List<Cita> citas;
-
     public Paciente() {}
 
-    public Paciente(String nombre, String apellido, Double cedula,
-                    String email, String telefono,
-                    LocalDate fechaNacimiento, Boolean activo) {
+    public Paciente(String nombre, String apellido, Double cedula, String email, String telefono, LocalDate fechaNacimiento, Boolean activo) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.cedula = cedula;
@@ -41,7 +35,6 @@ public class Paciente {
         this.activo = activo;
     }
 
-    // getters & setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 

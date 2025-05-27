@@ -68,7 +68,7 @@ public class PacienteController {
     }
 
     @GetMapping("/frecuentes")
-    public List<PacienteDTO> getFrecuentes(@RequestParam(defaultValue = "3") int min) {
+    public List<PacienteDTO> getFrecuentes(@RequestParam(defaultValue = "5") int min) {
         return svc.obtenerFrecuentes(min);
     }
 }
