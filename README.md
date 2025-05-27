@@ -256,6 +256,8 @@ public interface CitasClient {
 
 - **Repositorio:** [GitHub](https://github.com/Andresch2/microservicios_pacientes.git)
 - **Deploy:** [Railway Dashboard](https://railway.app)
+- **Colección de Postman:** [Descargar colección Pacientes](https://raw.githubusercontent.com/Andresch2/coleccion_pacientes/53632be98cdc65f319351954e9caa91b18d6c3a3/Pacientes.postman_collection.json)
+
 
 ---
 
