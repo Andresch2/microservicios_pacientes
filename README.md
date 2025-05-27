@@ -98,10 +98,10 @@ La aplicación estará disponible en: `http://localhost:8080`
 
 ### Entornos Disponibles
 
-| Entorno | URL Base | Swagger UI |
-|---------|----------|------------|
-| **Local** | `http://localhost:8080` | `http://localhost:8080/swagger-ui/index.html` |
-| **Producción** | `https://microserviciospacientes-production.up.railway.app/` | [Ver documentación](https://microserviciospacientes-production.up.railway.app/swagger-ui/index.html) |
+| Entorno | URL Base |
+|---------|----------|
+| **Local** | `http://localhost:8080` |
+| **Producción** | `https://microserviciospacientes-production.up.railway.app` |
 
 ---
 
@@ -156,8 +156,8 @@ Content-Type: application/json
 # Pacientes activos
 GET http://localhost:8080/pacientes/activos
 
-# Pacientes frecuentes (mínimo 1 cita)
-GET http://localhost:8080/pacientes/frecuentes?min=1
+# Pacientes frecuentes (mínimo 5 cita)
+GET http://localhost:8080/pacientes/frecuentes?min=5
 
 # Actividad de un paciente
 GET http://localhost:8080/pacientes/1/actividad
